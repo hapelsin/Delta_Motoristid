@@ -6,11 +6,29 @@
         <meta name='viewport' content='width=device-width, initial-scale=1'>
         <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
         <script src="script.js" defer></script>
+        <script>
+            function myFunction() {
+                var dots = document.getElementById("dots");
+                var moreText = document.getElementById("more");
+                var btnText = document.getElementById("myBtn");
+
+                if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "Näita rohkem";
+                    moreText.style.display = "none";
+                } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Näita vähem";
+                    moreText.style.display = "inline";
+                }
+            }
+        </script>
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap'); 
         </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="f1_style.css">
-        <title>Ralli</title>
+        <title>F1</title>
     </head>
     <body>
         <div class="layout">
@@ -41,9 +59,9 @@
                             kõikides maailmajagudes (peale Antarktika).
                         </p>
                         <div id="picContainer">
-                            <img src="pildid/pingviin.jfif" alt="Pilt1" class="active">
-                            <img src="pildid/pingu-scared.gif" alt="Pilt2">
-                            <img src="pildid/viha.jfif" alt="Pilt3">
+                            <img src="Pildid/pingviin.jfif" alt="Pilt1" class="active">
+                            <img src="Pildid/pingu-scared.gif" alt="Pilt2">
+                            <img src="Pildid/viha.jfif" alt="Pilt3">
                         </div>
                         <div class="big-img-container">
                             <div class="big-image"></div>
@@ -59,6 +77,23 @@
                         </div>
                         <div class="big-name-container">
                             <div class="big-name"></div>
+                        </div>
+                        <h2>Huvitavaid fakte Vormel 1 kohta!</h2>
+                        <ul>
+                            <li>Noorim Vormel 1 etapil startinu on Max Verstappen, kes oli siis 17 aastat ja 166 päeva vana (2015. aasta Austraalia GP).</li>
+                            <li>Noorim Vormel 1 etapi võitja on Max Verstappen, kes oli siis 18 aastat ja 228 päeva vana (2016. aasta Hispaania GP).</li>
+                            <span id="dots"></span>
+                            <span id="more">
+                                <li>Vanim Vormel 1 etapi võitja on Luigi Fagioli, kes oli siis 53 aastat ja 23 päeva vana (1951. aasta Prantsusmaa GP).</li>
+                                <li>Vanim Vormel 1 etapil startinu on Louis Chiron, kes oli siis 55 aastat ja 292 päeva vana (1955. aasta Monaco GP).</li>
+                                <li>Kiireim Vormel 1 boksipeatus kuulub Max Verstappenile kellel kulus selleks 1.88 sekundit (2019. aasta Saksamaa GP).</li>
+                            </span>
+                        </ul>
+                        <button onclick="myFunction()" id="myBtn">Näita rohkem</button>
+                        <br>
+                        <div class="links">
+                            <button class="yt" onclick="location.href='https://www.youtube.com/@Formula1'"><i class="fa fa-youtube-play" style="font-size:48px; color:red"></i></button>
+                            <button class="f1" onclick="location.href='https://www.formula1.com/'"></button>
                         </div>
                     </div>  
                 </div>

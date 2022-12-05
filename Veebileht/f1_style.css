@@ -5,6 +5,8 @@
     justify-content: space-around;
 }
 
+#more {display: none;}
+
 p{
     display: flex;
     justify-content: center;
@@ -14,20 +16,63 @@ img{
     width: 20vw;
     height: 40vh;
     border-radius: 100%;
-    border-color: lightsteelblue;
+    border-color: rgb(236, 231, 231);
     border-style: solid;
 }
 
-button{
+.prev, .next{
     width: 40px;
     height: 40px;
-    background-color: lightsteelblue;
+    background-color: rgb(29, 28, 28);
     border: none;
-    color: white;
+    color: rgb(236, 231, 231);
     font-size: 20px;
     text-align: center;
 }
 
 button:active{
     transform: translateY(4px);
+}
+
+li{
+    margin: 0;
+	padding: 36px 0 36px 50px;
+	list-style: none;
+	background-image: url("Pildid/auto.jpg");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 50px;
+}
+
+#myBtn{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(29, 28, 28);
+    border: none;
+    color: rgb(236, 231, 231);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.f1{
+    width: 60px;
+    height: 55px;
+    background-image: url("Pildid/f1.png");
+    background-size: cover;
+    margin-left: 5px;
+    background-color: rgb(236, 231, 231);;
+}
+
+.yt{
+    margin-right: 5px;
+    background-color: rgb(236, 231, 231);;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: auto;
 }

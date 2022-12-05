@@ -5,7 +5,7 @@ $('#video').css({'display':'flex', 'justify-content':'center'});
 $('button').css({'border':'solid'})
 
 let firstPic = $('img.active').attr('src');
-$('.big-image').css({'width' : '20vw', 'height' : '40vh', 'border-radius' : '100%', 'border-color' : 'lightsteelblue',
+$('.big-image').css({'width' : '20vw', 'height' : '40vh', 'border-radius' : '100%', 'border-color' : 'rgb(236, 231, 231)',
 'border-style' : 'solid', 'background-image' : 'url(' +firstPic+ ')', 'background-size' : 'cover', 'background-position' : 'center'});
 
 let firstName = $('p.active').attr('name');
@@ -34,7 +34,7 @@ function picBackward(){
 
     selectedPic = $('img.active').attr('src');
 
-    $('.big-image').css({'width' : '20vw', 'height' : '40vh', 'border-radius' : '100%', 'border-color' : 'lightsteelblue',
+    $('.big-image').css({'width' : '20vw', 'height' : '40vh', 'border-radius' : '100%', 'border-color' : 'rgb(236, 231, 231)',
 'border-style' : 'solid', 'background-image' : 'url(' +selectedPic+ ')', 'background-size' : 'cover', 'background-position' : 'center'}).hide().fadeIn(100, "linear");
     $('.big-name').html('<p>' + selectedName.attr('name') + '</p>').hide().fadeIn(100, "linear");
 
@@ -65,7 +65,7 @@ function picForward(){
 
     selectedPic = $('img.active').attr('src');
 
-    $('.big-image').css({'width' : '20vw', 'height' : '40vh', 'border-radius' : '100%', 'border-color' : 'lightsteelblue',
+    $('.big-image').css({'width' : '20vw', 'height' : '40vh', 'border-radius' : '100%', 'border-color' : 'rgb(236, 231, 231)',
 'border-style' : 'solid', 'background-image' : 'url(' +selectedPic+ ')', 'background-size' : 'cover', 'background-position' : 'center'}).hide().fadeIn(100, "linear");
     $('.big-name').html('<p>' + selectedName.attr('name') + '</p>').hide().fadeIn(100, "linear");
 
