@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset='utf-8'>
+        <meta charset='UTF-8'>
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-        <title>Ralli</title>
+        <title>F1</title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
-        <link rel='stylesheet' type='text/css' media='screen' href='kodu_style.css'>
-        <script src='main.js'></script>
-        <link href="page.css" rel="stylesheet">
-        <script src="GIF_Mängija.js"></script>
-        <style> @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap'); </style>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="script.js" defer></script>
+        <script src="Näita_Rohkem.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="f1_style.css">
     </head>
     <body>
         <div class="layout">
@@ -25,7 +25,57 @@
             <main class="main-1">
                 <div class="container">
                     <div class="tekst">
-                        
+                        <h1>Vormel 1</h1>
+                        <h2>Mis on Vormel 1?</h2>
+                        <p>
+                            Vormel 1 (ka F1, F-1, Vormel-1) on tuntuim üheistmeliste 
+                            võidusõiduautode võistlusklass, milles peetakse 
+                            maailmameistrivõistlusi. Maailmameistrivõistlused koosnevad 
+                            etappidest. Alates aastast 2003 on neid olnud 16–21. 
+                            Etappidel sõidetakse spetsiaalselt võidusõiduks ehitatud 
+                            ringradadel või võistluse ajaks suletud tänavaradadel. 
+                            Vormel 1 maailmameistrivõistlusi korraldab Rahvusvaheline 
+                            Autoliit (FIA ehk prantsuse keeles Federation Internationale 
+                            de l'Automobile). Kuigi spordiala pärineb Euroopast, on sõidetud 
+                            kõikides maailmajagudes (peale Antarktika).
+                        </p>
+                        <div id="picContainer">
+                            <img src="Pildid/pingviin.jfif" alt="Pilt1" class="active">
+                            <img src="Pildid/pingu-scared.gif" alt="Pilt2">
+                            <img src="Pildid/viha.jfif" alt="Pilt3">
+                        </div>
+                        <div class="big-img-container">
+                            <div class="big-image"></div>
+                        </div>
+                        <div id="buttonContainer">
+                            <button class="prev"><</button>
+                            <button class="next">></button>
+                        </div>
+                        <div id="nameContainer">
+                            <p name="Pettumus" class="active"></p>
+                            <p name="Kurbus"></p>
+                            <p name="Viha"></p>
+                        </div>
+                        <div class="big-name-container">
+                            <div class="big-name"></div>
+                        </div>
+                        <h2>Huvitavaid fakte Vormel 1 kohta!</h2>
+                        <ul>
+                            <li>Noorim Vormel 1 etapil startinu on Max Verstappen, kes oli siis 17 aastat ja 166 päeva vana (2015. aasta Austraalia GP).</li>
+                            <li>Noorim Vormel 1 etapi võitja on Max Verstappen, kes oli siis 18 aastat ja 228 päeva vana (2016. aasta Hispaania GP).</li>
+                            <span id="dots"></span>
+                            <span id="more">
+                                <li>Vanim Vormel 1 etapi võitja on Luigi Fagioli, kes oli siis 53 aastat ja 23 päeva vana (1951. aasta Prantsusmaa GP).</li>
+                                <li>Vanim Vormel 1 etapil startinu on Louis Chiron, kes oli siis 55 aastat ja 292 päeva vana (1955. aasta Monaco GP).</li>
+                                <li>Kiireim Vormel 1 boksipeatus kuulub Max Verstappenile kellel kulus selleks 1.88 sekundit (2019. aasta Saksamaa GP).</li>
+                            </span>
+                        </ul>
+                        <button onclick="näitaRohkem()" id="myBtn">Näita rohkem</button>
+                        <br>
+                        <div class="links">
+                            <button class="yt" onclick="location.href='https://www.youtube.com/@Formula1'"><i class="fa fa-youtube-play" style="font-size:48px; color:red"></i></button>
+                            <button class="f1" onclick="location.href='https://www.formula1.com/'"></button>
+                        </div>
                     </div>  
                 </div>
             </main>

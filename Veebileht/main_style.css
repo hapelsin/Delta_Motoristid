@@ -1,4 +1,6 @@
 /*Rops11©*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
 /*Mobile First :P*/
 
 /*Kõik*/
@@ -92,7 +94,7 @@ p {
 	margin-left: auto;
    	margin-right: auto;
 	width: 100%;
-	height: 60%;
+	height: 200px;
 }
 
 .vahe-tekst {
