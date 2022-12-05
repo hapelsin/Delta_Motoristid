@@ -7,6 +7,8 @@ Lisaks on 1 pilt ja 1 gif.
 Autoralli lehel on üldist ja Ott Tänaku kohta infot. Lehel on pilt Ott Tänaku 2020-2022 Hyundai ralliautost ja 2 videot Tänaku kohta.
 Lisaks on rallimäng, mis käivitub pildile vajutades kahjuks sõit lõpeb alati puuse sõiduga ja piirdub 188 punktiga.
 ## Nascar
+NASCARi lehel on lühike tutvustus NASCAR Cup võidusõiduseeriast, lisaks pilt ja video võidusõitudest.
+Lehel on ka nupp, mis viib NASCARi kodulehele.
 ## F1 leht
 Vormel 1 lehel on üldist infot, pildi galerii, mida saab nii nooleklahvide kui ka nuppude abil sirvida. 
 Lisaks saab lugeda huvitavaid fakte Vormel 1 kohta, vaadates kas paari või mitut erinevat neist korraga.
