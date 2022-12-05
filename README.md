@@ -1,7 +1,7 @@
 # Delta_Motoristid
 Meie motosporti tutvustava veebilehe rühmatöö.
 ## Avaleht
-Avalehel on lühi sissejuhatus kuidas autoralli sai alguse.
+Avalehel on lühi sissejuhatus kuidas autosport sai alguse.
 Lisaks on 1 pilt ja 1 gif.
 ## Ralli
 Autoralli lehel on üldist ja Ott Tänaku kohta infot. Lehel on pilt Ott Tänaku 2020-2022 Hyundai ralliautost ja 2 videot Tänaku kohta.
